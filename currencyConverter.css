@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  width: 100%;
+  height: 100vh;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  width: 30%;
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+.amount{
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 300px;
+}
+

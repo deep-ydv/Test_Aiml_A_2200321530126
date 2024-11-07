@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border: 2px solid black;
+}
+.title{
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  font-size: 26px;
+  justify-content: center;
+  padding: 20px 0;
+}
+.section{
+  border: 2px solid black;
+  display: flex;
+  padding: 10px;
+}
+.sec1{
+  border: 2px solid black;
+  width: 20%;
+  height: 500px;
+  padding: 4px;
+}
+.sec2{
+  width: 100%;
+  border: 2px solid black;
+  height: 500px;
+  padding: 4px;
+}
+.footer{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
